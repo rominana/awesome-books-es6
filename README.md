@@ -23,4 +23,4 @@ git clone git@github.com:rominana/awesome-books-es6.git
 @microverse
 
 ## memo License
-This project is MIT licensed.
+This project is a [MIT](./MIT.md) licensed project.

@@ -1,6 +1,6 @@
-const toggleVisbility = (activeEle) => {
-  activeEle.classList.toggle('active');
-  activeEle.classList.remove('hide-class');
+const toggleVisbility = (activeElement) => {
+  activeElement.classList.toggle('active');
+  activeElement.classList.remove('hide-class');
 };
 
 export default toggleVisbility;

@@ -4,8 +4,6 @@ import toggleVisbility from './modules/toggleVisibility.js';
 import theClasses from './modules/theClasses.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 
-// import { DateTime } from "luxon";
-
 // CREATE ELEMENTS
 const addBook = document.getElementById('add-book');
 const allBooksSection = document.getElementById('all-books');
