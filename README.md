@@ -1,13 +1,13 @@
-### Awesome Books - ES6
+# Awesome Books - ES6
 
 This repository contains an web app that allows to add and remove book's data using Javascript, taking advantage of ES6 conventions.
 
-##Built With
+### Built With
 HTML
 CSS
 Javascript ES6
 
-## Getting Started
+### Getting Started
 To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
