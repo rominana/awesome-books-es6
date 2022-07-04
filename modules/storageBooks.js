@@ -1,5 +1,5 @@
 import Book from './book.js';
-import getLi from './getLi.js';
+import getListElement from './getListElement.js';
 
 const bookList = document.getElementById('book-list');
 const newTitle = document.getElementById('new-title');
@@ -20,7 +20,7 @@ export default class StorageBooks {
     if (data) {
       const bookData = JSON.parse(data);
       bookData.forEach((book) => {
-        bookList.appendChild(getLi(book.title, book.author, book.id));
+        bookList.appendChild(getListElement(book.title, book.author, book.id));
       });
     }
     document.querySelectorAll('.remove').forEach((button) => {
@@ -44,7 +44,7 @@ export default class StorageBooks {
       const id = Date.now();
       const book = new Book(newTitle.value, newAuthor.value, id);
       bookData.push(book);
-      bookList.appendChild(getLi(book.title, book.author, book.id));
+      bookList.appendChild(getListElement(book.title, book.author, book.id));
       StorageBooks.storeData(bookData);
       newTitle.value = '';
       newAuthor.value = '';

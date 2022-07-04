@@ -1,4 +1,4 @@
-const getLi = (title, author, id) => {
+const getListElement = (title, author, id) => {
   const div = document.createElement('div');
   const removeButton = document.createElement('button');
   const li = document.createElement('li');
@@ -19,4 +19,4 @@ const getLi = (title, author, id) => {
   return li;
 };
 
-export default getLi;
+export default getListElement;
