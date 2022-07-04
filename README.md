@@ -19,6 +19,7 @@ git clone git@github.com:rominana/awesome-books-es6.git
 ## Authors
 GitHub: @rominana
 Twitter: @romina_pati
+Linkedin: romina-patino
 
 ## Acknowledgments
 @microverse
