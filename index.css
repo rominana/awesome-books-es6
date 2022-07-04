@@ -28,11 +28,11 @@ a:visited {
 ul a:hover {
   transition-duration: 0.1s;
   transform: scale(1.1);
-  color: green;
+  color: #c835c8;
 }
 
 ul a:active {
-  color: green;
+  color: #c835c8;
   transform: scale(1.1);
 }
 

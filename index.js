@@ -1,3 +1,4 @@
+// IMPORT MODULES
 import StorageBooks from './modules/storageBooks.js';
 import toggleVisbility from './modules/toggleVisibility.js';
 import theClasses from './modules/theClasses.js';
@@ -5,6 +6,7 @@ import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 // import { DateTime } from "luxon";
 
+// CREATE ELEMENTS
 const addBook = document.getElementById('add-book');
 const allBooksSection = document.getElementById('all-books');
 const addNewBookSection = document.getElementById('add-new-book');
@@ -13,14 +15,15 @@ const listLink = document.getElementById('list-link');
 const addLink = document.getElementById('add-link');
 const contactLink = document.getElementById('contact-link');
 
+// SET CURRENT TIME
 document.getElementById('date').innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-// Load books in local storage
+// LOAD BOOK INFO INTO THE LOCAL STORAGE
 document.addEventListener('DOMContentLoaded', StorageBooks.loadData);
 
-// Add books from form
+// ADD BOOK INFORMATION FROM FORM
 addBook.addEventListener('click', StorageBooks.addLi);
 
-// Set visible the book list
+// SET THE BOOK LIST VISIBLE
 allBooksSection.classList.add('active');
 allBooksSection.classList.remove('hide-class');
 
