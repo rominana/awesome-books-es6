@@ -1,6 +1,6 @@
 import StorageBooks from './modules/storageBooks.js';
 import toggleVisbility from './modules/toggleVisibility.js';
-import clearClasses from './modules/clearClasses.js';
+import theClasses from './modules/theClasses.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 // import { DateTime } from "luxon";
@@ -26,15 +26,15 @@ allBooksSection.classList.remove('hide-class');
 
 listLink.addEventListener('click', () => {
   toggleVisbility(allBooksSection);
-  clearClasses(addNewBookSection, contactSection);
+  theClasses(addNewBookSection, contactSection);
 });
 
 addLink.addEventListener('click', () => {
   toggleVisbility(addNewBookSection);
-  clearClasses(allBooksSection, contactSection);
+  theClasses(allBooksSection, contactSection);
 });
 
 contactLink.addEventListener('click', () => {
   toggleVisbility(contactSection);
-  clearClasses(allBooksSection, addNewBookSection);
+  theClasses(allBooksSection, addNewBookSection);
 });

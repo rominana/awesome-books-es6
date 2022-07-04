@@ -8,7 +8,8 @@ Web app that allows to add and remove book's data using Javascript and ES6 conve
 - Javascript ES6
 
 ## Prerequisites
-Modern web browser with Javascript enabled
+- Modern web browser with Javascript enabled
+- Install package Luxon
 
 ## Install
 git clone git@github.com:rominana/awesome-books-es6.git
